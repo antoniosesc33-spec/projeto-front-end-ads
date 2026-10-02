@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Projeto acadêmico de desenvolvimento front-end acessível.">
-  <title>Projeto Front-End ADS</title>
-  <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto acadêmico de desenvolvimento front-end acessível.">
+    <title>Projeto Front-End ADS</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-  <header>
-    <h1>Projeto Front-End ADS</h1>
 
-    <nav aria-label="Navegação principal">
-      <a href="#inicio">Início</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#contato">Contato</a>
-    </nav>
+    <header>
+        <h1>Projeto Front-End ADS</h1>
 
-    <button id="contraste" type="button" aria-label="Ativar ou desativar alto contraste">
-      Alto contraste
-    </button>
-  </header>
+        <nav aria-label="Navegação principal">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
 
-  <main>
-    <section id="inicio">
-      <h2>Bem-vindo</h2>
-      <p>
-        Este projeto foi desenvolvido como atividade acadêmica do curso de
-        Análise e Desenvolvimento de Sistemas.
-      </p>
-    </section>
+        <button id="contraste" type="button" aria-label="Ativar ou desativar alto contraste">
+            Alto contraste
+        </button>
+    </header>
 
-    <section id="sobre">
-      <h2>Sobre o projeto</h2>
-      <p>
-        A aplicação utiliza HTML5, CSS3 e JavaScript e aplica boas práticas
-        de acessibilidade, responsividade e organização de código.
-      </p>
-    </section>
+    <main>
 
-    <section id="contato">
-      <h2>Contato</h2>
+        <section id="inicio">
+            <h2>Bem-vindo</h2>
+            <p>
+                Este projeto foi desenvolvido como atividade acadêmica do curso de
+                Análise e Desenvolvimento de Sistemas.
+            </p>
+        </section>
 
-      <form>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" required>
+        <section id="sobre">
+            <h2>Sobre o projeto</h2>
+            <p>
+                A aplicação utiliza HTML5, CSS3 e JavaScript e aplica boas práticas
+                de acessibilidade, responsividade e organização de código.
+            </p>
+        </section>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required>
+        <section id="contato">
+            <h2>Contato</h2>
 
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-  </main>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
 
-  <footer>
-    <p>Projeto acadêmico — ADS</p>
-  </footer>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
 
-  <script src="script.js"></script>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto acadêmico — ADS</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
